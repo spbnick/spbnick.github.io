@@ -3,9 +3,11 @@ layout: page
 title: About
 permalink: /about/
 ---
+My name is Nikolai "spbnick" Kondrashov and I'm a self-taught software
+engineer living in Espoo, Finland, formerly Saint-Petersburg, Russia.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm interested in all things computer software and hardware, preferring Open
+Source flavors. This is a blog where I'm posting my findings in these and
+other tech areas, which won't fit into a [Google Plus][1] post.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+[1]: https://plus.google.com/+NikolaiKondrashov/posts
