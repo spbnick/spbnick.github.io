@@ -77,8 +77,8 @@ Tivoized in some way, making any attempts to hack it useless, but I have to
 hope for the best until I'm able to figure it out.
 
 If you have any ideas of where the serial or JTAG can be on this board, or if
-this STB is Tivoized, please write to me, or leave a comment on my Google+
-post.
+this STB is Tivoized, please write to me, or leave a comment on my [Google+
+post][gplus_post].
 
 [kierratyskeskus]: http://www.kierratyskeskus.fi/
 [rpi_model_b]: https://www.raspberrypi.org/products/model-b/
@@ -111,3 +111,4 @@ post.
 [spansion_flash]: http://www.spansion.com/Support/Datasheets/S29GL-P_00.pdf
 [sony_cxd2820r]: http://www.sony.net/Products/SC-HP/cx_news_archives/img/pdf/vol_60/cxd2820r.pdf
 [st_stv6417]: http://www.st.com/web/catalog/mmc/FM131/SC631/PF174515
+[gplus_post]: https://plus.google.com/+NikolaiKondrashov/posts/SVHbiedQPhy
