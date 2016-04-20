@@ -12,4 +12,78 @@ layout: default
     {{ content }}
   </article>
 
+  {% if page.issue %}
+    <div id="comments">
+      <h2>Comments</h2>
+      <p>
+        If you'd like, leave your comment at
+        <a href="{{site.github_issues_ui}}/{{page.issue}}">
+          the issue page for this post
+        </a>
+        and it will appear below.
+      </p>
+    </div>
+
+    <script type="text/javascript">
+      function insert_comments(data) {
+        for (var i=0; i<data.length; i++) {
+          var cuser = data[i].user.login;
+          var cuserlink = "https://www.github.com/" + data[i].user.login;
+          var clink = "{{site.github_issues_ui}}/{{page.issue}}#issuecomment-" +
+                      data[i].url.substring(data[i].url.lastIndexOf("/")+1);
+          var cbody = data[i].body_html;
+          var cavatarlink = data[i].user.avatar_url;
+          var cdate = Date.parse(data[i].created_at).toString("yyyy-MM-dd HH:mm:ss");
+          $("#comments").append(
+              "<div class='comment'>" +
+              "<div class='commentheader'>" +
+              "<div class='commentgravatar'>" +
+              "<img src='" + cavatarlink + "' alt='' width='20' height='20'>" +
+              "</div>" +
+              "<a class='commentuser' href='"+ cuserlink + "'>" +
+              cuser +
+              "</a>" +
+              "<a class='commentdate' href='" + clink + "'>" +
+              cdate +
+              "</a>" +
+              "</div>" +
+              "<div class='commentbody'>" + cbody + "</div>" +
+              "</div>"
+          );
+        }
+        if (data.length > 0) {
+          $("#comments").append(
+            "<p>" +
+            "You can leave your comment at " +
+            "<a href='{{site.github_issues_ui}}/{{page.issue}}'>" +
+            "the issue page for this post" +
+            "</a> " +
+            "and it will appear above." +
+            "</p>"
+          )
+        }
+      }
+
+      function insert_error(jqXHR, textStatus, errorThrown) {
+        $("#comments").append(
+          "<pre>" +
+          "Failed retrieving comments!\n" +
+          "Status: " + textStatus + "\n" +
+          "Error: " + errorThrown + "\n" +
+          "Response: " + jqXHR.responseText + "\n" +
+          "</pre>"
+        );
+      }
+
+      $.ajax(
+        "{{site.github_issues_api}}/{{page.issue}}/comments?per_page=1000",
+        {
+          headers: {Accept: "application/vnd.github.full+json"},
+          dataType: "json",
+          success: insert_comments,
+          error: insert_error,
+        }
+      );
+    </script>
+  {% endif %}
 </div>

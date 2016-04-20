@@ -9,6 +9,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://spbnick.github.io" # the base hostname & protocol for your site
 twitter_username:
 github_username:  spbnick
+github_issues_ui: https://github.com/spbnick/spbnick.github.io/issues
+github_issues_api: https://api.github.com/repos/spbnick/spbnick.github.io/issues
 gplus_url: https://plus.google.com/+NikolaiKondrashov/posts
 
 # Build settings
