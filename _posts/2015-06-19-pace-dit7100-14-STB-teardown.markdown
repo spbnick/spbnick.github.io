@@ -2,6 +2,7 @@
 layout: post
 title:  "Pace DIT7100/14 STB teardown"
 date:   2015-06-19 16-06-58
+issue:  3
 ---
 Elisa, a Finnish telecom company is phasing out one of its older STBs (set-top
 boxes) and they are already showing up in local reuse centers

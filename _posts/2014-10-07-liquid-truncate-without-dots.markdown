@@ -2,6 +2,7 @@
 layout: post
 title:  "Liquid: truncate without dots"
 date:   2014-10-07 19:18:00
+issue:  1
 ---
 While building [the new DIGImend website][digimend] I needed a way to truncate
 strings in [Liquid][shopify-liquid], which is the template language

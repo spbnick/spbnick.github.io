@@ -2,6 +2,7 @@
 layout: post
 title:  "Open-Source Session Recording"
 date:   2015-10-26 15:30:00
+issue:  4
 ---
 
 Many companies need to have their systems used or even managed by people they

@@ -2,6 +2,7 @@
 layout: post
 title:  "Getting interactive shell in the deepest bowels of a system"
 date:   2015-01-13 18:55:59
+issue:  2
 ---
 Sometimes you might need to debug a failure somewhere in the deepest bowels of
 a system. Particularly a complicated shell script or a build system, where
