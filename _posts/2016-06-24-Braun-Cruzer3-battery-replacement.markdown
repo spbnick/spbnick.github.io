@@ -83,7 +83,7 @@ indentations where the pins are supposed to rest.
 ![Control board terminals back][control_board_terminals_back]
 
 Since we are not likely to get anything like these batteries with pins easily,
-we'll have to do without them. The standard AA batteries fall out of the
+we'll have to do without them. The standard AAA batteries fall out of the
 holder easily, and are not likely to have good contact as is. So, I had the
 idea to make them fit tighter by soldering a piece of copper to each of the
 control board's negative terminals. Don't solder anything to the batteries
