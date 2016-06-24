@@ -101,7 +101,7 @@ Here they are soldered in.
 ![Soldered contact front][soldered_contact_front]
 
 If you look inside the holder, you should be able to see the polarity marks at
-the bottom. Here the plus is visible and you can just about see the minus.
+the bottom. Here the plus is visible, and you can just about see the minus.
 I chose to solder the copper to the negative terminals, presuming that there
 will be more area to make contact with and it will be more reliable.
 
