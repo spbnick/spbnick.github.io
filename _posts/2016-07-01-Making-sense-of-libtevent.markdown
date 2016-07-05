@@ -120,10 +120,10 @@ work data between them - all add up to a lot of code which has little to do
 with the actual problem being solved.
 
 All that makes me wish for the directness and simplicity of coroutines. C
-language doesn't support them, but there are multiple implementations, some of
-which are quite good and even portable. E.g. [picoro][picoro] from Tony Finch,
-and a well-explained (but non-portable) attempt by Yossi Kreinin: [Coroutines
-in one page of C][yossi_kreinin_coroutines].
+language doesn't support them, but there are multiple library implementations
+on top, some of which are quite good and even portable. E.g. [picoro][picoro]
+from Tony Finch, and a well-explained (but non-portable) attempt by Yossi
+Kreinin: [Coroutines in one page of C][yossi_kreinin_coroutines].
 
 If I have to start something complicated and asynchronous in C without using
 threads or separate processes, I'll try coroutines, but for now I have to
