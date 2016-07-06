@@ -129,6 +129,33 @@ If I have to start something complicated and asynchronous in C without using
 threads or separate processes, I'll try coroutines, but for now I have to
 understand SSSD and tevent.
 
+**UPDATE 06.07.2016**: I had another hypothesis on the origin of the "request"
+name and "sending" and "receiving" it, while writing this post. I thought
+perhaps these came from the original Samba usecase for it, but decided it was
+too quirky and unlikely. Yet, surprisingly (or not, if you wish), it was
+indeed the case, as Simo Sorce, a Samba developer among other things,
+explained:
+
+> Samba is a file server and the SMB protocol is request driven, and we do a
+> lot of sending and receiving data over sockets. That's why as a client you
+> make a (tevent) request by _send_ing data and then _recv_ing an answer.
+> Once we established a pattern we decided to use it everywhere, because using
+> a pattern makes it easy to understand what the code does.
+
+So, no, this is not archaic CS terminology.
+
+While I understand their original reasoning and intent, I consider the
+decision flawed in the long term. My opinion is, in engineering things should
+be named according to their essence and function, not a single specific
+purpose, so when they're reused confusion doesn't ensue. Although, yeah,
+hindsight is 20/20, and often it's hard to perceive the ultimate abstraction
+of a particular mechanism and its future uses.
+
+If you're still struggling with understanding tevent requests, take a look at
+the example [echo server][tevent_echo_server] using them. Along with (neat and
+tidy) [tevent source][tevent_source], it was what eventually and ultimately
+cleared my confusion.
+
 [tlog]: http://scribery.github.io/tlog/
 [sssd]: https://fedorahosted.org/sssd/
 [tevent]: https://tevent.samba.org/
@@ -137,3 +164,5 @@ understand SSSD and tevent.
 [tevent_requests]: https://tevent.samba.org/tevent_request.html
 [picoro]: http://dotat.at/cgi/~fanf/dotat/~fanf/dotat/git/picoro.git
 [yossi_kreinin_coroutines]: https://www.embeddedrelated.com/showarticle/455.php
+[tevent_echo_server]: https://git.samba.org/?p=samba.git;a=blob;f=lib/tevent/echo_server.c
+[tevent_source]: https://git.samba.org/?p=samba.git;a=tree;f=lib/tevent
