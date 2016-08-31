@@ -141,6 +141,8 @@ me if I forgot you, you have my thanks too! So, in no particular order:
   then testing;
 * Favux, for helping support users and contributing wiki contents and HOWTOs;
 * Viktoria S., for helping support users and contributing HOWTOs;
+* Alexandre Prokoudine, of libregraphicsworld.org for writing about the
+  project;
 * the incredible number of tablet owners, who meticulously collected
   diagnostics, strived to learn Linux, and tested the drivers, for their
   efforts, patience and gratitude;
