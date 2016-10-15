@@ -57,9 +57,9 @@ You'll need:
   Jansjö has, while being powerful enough, has voltage (4V) which is too low
   for any but the smallest fans. It must output DC (direct current), as small
   fans are usually DC-powered! Make sure the adapter's claimed maximum current
-  is twice as much as the current consumed by the fan, as those are never
-  exact. I picked a 12V 500mA-rated power adapter from a flea market for my
-  140mA-rated fan.
+  is at least twice as much as the current consumed by the fan, as those are
+  never exact. I picked a 12V 500mA-rated power adapter from a flea market for
+  my 140mA-rated fan.
 * A basic multimeter to test polarity when connecting the power supply.
 * Soldering iron and soldering wire.
 * A piece of heat-shrink tubing or electrical tape for insulating soldered
@@ -179,9 +179,9 @@ checking the fan frame for arrows showing the rotation and air flow directions
 to make sure it's right, or use your multimeter and check wire colors.
 ![Power adapter][power_adapter]
 
-It's also good to not repeat my mistake and cut off the lamp's cord **before**
-soldering and isolating the wires inside the lamp, so you can test which one
-is which from the power adapter side.
+Do not repeat my mistake and do cut off the lamp's cord **before** soldering
+and isolating the wires inside the lamp, so you can test which one is which
+from the power adapter side.
 
 Anyway, I'll pull the "[draw an owl][how_to_draw_an_owl]" here again, skip the
 power cord soldering and insulation, and will rush you to the final picture:
@@ -192,7 +192,7 @@ neck itself, and more so when the fan is running, it is sitting in the lamp
 nice and tight and I can bend the lamp by pulling the fan as needed, without a
 hint of slack, or fear of breaking it off. I considered putting a wire mesh on
 both sides of the fan for safety at the cost of efficiency, but where is the
-fun in that? Make your own choice here, though. Otherwise, the motor is quiet,
+fun in that? Make your own choice here, though. Otherwise, the fan is quiet,
 airflow is great, and I'll be testing it with my desoldering process soon!
 
 Even if you don't do it exactly as I did (completely understandable), I hope
