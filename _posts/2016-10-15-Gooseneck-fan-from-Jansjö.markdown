@@ -22,12 +22,12 @@ stand][lighted_sheet_music_stand], a [globe night light][globe_night_light], a
 I was practicing hot-air desoldering recently, and, although I did so on my
 balcony, I still had to breathe in quite a bit of fumes produced by heated
 PCBs and components (ah, the smell of popping electrolytics!). So I thought a
-bit of extra air movement could get them away from me, but my soldering smoke
+bit of extra air movement could get them away from me, but my soldering fume
 extractor would have been useless beside an already powerful air stream from
 the hot-air gun. That's when I thought something like a smaller fan closer to
 my face would be just about right, something like [this one, attached to a
 desk lamp][desk_lamp_fan]. I was already using a Jansjö while desoldering, we
-had a couple extra from a flea market (who would even sell them?), and I
+had a couple extra from a flea market (who would even sell them off?), and I
 thought putting a fan on one would be just the thing.
 
 Yeah a black Jansjö would be better, but I had a white one, so here it is.
@@ -43,6 +43,7 @@ instructions. This will also void the lamp’s warranty. Proceed at your own
 risk!
 
 You'll need:
+
 * An [IKEA Jansjö][ikea_jansjö], with a base of your choice. I.e. a clip like
   I used, a floor stand, a table stand - whatever you like, the lamp fixtures
   themselves seem to be the same, and that is what matters.
