@@ -2,6 +2,7 @@
 layout: post
 title:  "Pace DIT7100/14 STB teardown"
 date:   2015-06-19 16-06-58
+excerpt_separator: <!--more-->
 issue:  3
 ---
 Elisa, a Finnish telecom company is phasing out one of its older STBs (set-top
@@ -14,6 +15,8 @@ EUR, and I suspect can be acquired for less. So, they can theoretically be put
 to a few good uses beside their primary purpose.
 
 [![Top][top_thumb]][top] [![Bottom][bottom_thumb]][bottom] [![Rear][rear_thumb]][rear]
+
+<!--more-->
 
 I haven't found any evidence of anyone (beside Pace) successfully putting
 Linux on those, and so I cracked mine open to see if it is at least possible.
