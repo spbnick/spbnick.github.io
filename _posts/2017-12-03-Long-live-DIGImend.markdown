@@ -5,10 +5,11 @@ date:   2017-12-03 11-10-00
 excerpt_separator: <!--more-->
 issue:  9
 ---
-So, the old [DIGImend](http://digimend.github.io) is dead. I'm no longer going
-to be doing much volunteer work on it, and although there were several people
-approaching me with the interest of taking over, nobody has really stepped up
-yet.
+So, the old [DIGImend](http://digimend.github.io) is
+[dead](http://spbnick.github.io/2016/07/31/Wrapping-up-DIGImend-work.html).
+I'm no longer going to be doing much volunteer work on it, and although there
+were several people approaching me with the interest of taking over, nobody
+has really stepped up yet.
 
 I thought about this situation for a while, feeling sad about all the unused
 skills I acquired through these years working on the project, and pondered my
