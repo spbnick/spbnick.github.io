@@ -2,6 +2,7 @@
 layout: post
 title:  "DIGImend is dead, long live DIGImend!"
 date:   2017-12-03 11-10-00
+excerpt_separator: <!--more-->
 issue:  9
 ---
 So, the old [DIGImend](http://digimend.github.io) is dead. I'm no longer going
@@ -18,6 +19,8 @@ Neoblast Inc. is a Japanese company building affordable creativity-oriented
 computers for moms and school PTAs, which run Linux and employ affordable
 graphics tablets. XP-Pen is one of graphics tablet makers, which Neoblast Inc.
 chose as a partner.
+
+<!--more-->
 
 I secured a permission to do paid work in my free time from my employer, and
 after a while we worked out the financing terms. They sent me three tablets to
